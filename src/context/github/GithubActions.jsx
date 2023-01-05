@@ -7,9 +7,9 @@ const GITHUB_URL = "https://api.github.com";
 
 const github = axios.create({
   baseURL: GITHUB_URL,
-  headers: {
-    Authorization: `token ${GITHUB_TOKEN}`,
-  },
+  // headers: {
+  //   Authorization: `token ${GITHUB_TOKEN}`,
+  // },
 });
 
 // search users
